@@ -3,7 +3,7 @@
 
 # インストール
 ```
-    pip install https://github.com/Nkzono99/mypython.git
+    pip install git+https://github.com/Nkzono99/mypython.git
 ```
 
 # 使い方
