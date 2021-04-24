@@ -9,6 +9,9 @@ setup(
     install_requires=[
     ],
     entry_points={
+        'console_scripts': [
+            'mypython = mypython.mypython:main',
+        ]
     },
     author="Nkzono",
     author_email="71783375+Nkzono99@users.noreply.github.com",
