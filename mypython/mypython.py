@@ -8,8 +8,6 @@ def parse_args():
         print('filename is required')
         exit(1)
 
-    print(sys.argv)
-
     return sys.argv
 
 
