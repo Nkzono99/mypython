@@ -1,5 +1,6 @@
 # mypython
 ディレクトリ構造を意識したpython実行ラッパー
+何度も用いるpythonスクリプトをコマンドライクに用いるためのツール
 
 # インストール
 ```
@@ -11,7 +12,7 @@
 2. .mypython直下にpythonファイルを配置
 3. 以下のコマンドを実行
 ```
-    mypython <python-filename>
+    mypython <python-filename> <arguments>
 ```
 
 # 実行例
