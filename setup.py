@@ -10,7 +10,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'mypython = mypython.mypython:main',[
+            'mypython = mypython.mypython:main',
             'mypython3 = mypython.mypython3:main',
         ]
     },
