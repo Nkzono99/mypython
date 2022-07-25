@@ -5,12 +5,13 @@ long_description = open('README.md', 'r', encoding='utf-8').read()
 
 setup(
     name="mypython",
-    version="0.1.0",
+    version="0.1.1",
     install_requires=[
     ],
     entry_points={
         'console_scripts': [
-            'mypython = mypython.mypython:main',
+            'mypython = mypython.mypython:main',[
+            'mypython3 = mypython.mypython3:main',
         ]
     },
     author="Nkzono",
