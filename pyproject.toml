@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mypython"
+version = "0.1.2"
+description = "A directory structure-aware python execution wrapper"
+readme = "README.md"
+authors = [
+    { name = "Nkzono", email = "71783375+Nkzono99@users.noreply.github.com" }
+]
+requires-python = ">=3.7"
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Nkzono99/mypython"
+
+[project.scripts]
+mypython = "mypython.mypython:main"
+mypython3 = "mypython.mypython3:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
